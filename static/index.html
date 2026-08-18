@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEXO Shop</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">N</div>
+        <div><strong>NEXO</strong><span>Asistente de compra</span></div>
+      </div>
+      <div class="top-actions">
+        <span id="counter" class="counter">0/12</span>
+        <span id="connection" class="connection"><i></i> conectando</span>
+        <button id="newSession" class="ghost-btn" type="button">Nueva conversación</button>
+      </div>
+    </header>
+
+    <section class="conversation">
+      <div id="chat" class="chat">
+        <section class="welcome" id="welcome">
+          <span class="kicker">Compra asistida por IA</span>
+          <h1>Encuentra lo que necesitas sin navegar por veinte pantallas.</h1>
+          <p>Puedo buscar el catálogo, revisar ofertas, comparar alternativas y ayudarte a iniciar una compra.</p>
+          <div class="starter-grid">
+            <button class="starter" data-message="¿Qué ofertas tienes hoy?">Ver ofertas <span>→</span></button>
+            <button class="starter" data-message="Necesito un notebook para estudiar. ¿Qué me recomiendas?">Recomiéndame un notebook <span>→</span></button>
+            <button class="starter" data-message="Compara los notebooks disponibles en una tabla">Comparar notebooks <span>→</span></button>
+          </div>
+        </section>
+      </div>
+
+      <div id="activity" class="activity hidden">
+        <span class="pulse"></span><span id="activityText">NEXO está trabajando…</span>
+      </div>
+
+      <footer class="composer-wrap">
+        <form id="composer" class="composer">
+          <textarea id="input" rows="1" placeholder="Pregunta por un producto, una oferta o pide una recomendación…"></textarea>
+          <button id="send" type="submit">Enviar</button>
+        </form>
+        <div class="footer-meta">
+          <span id="sessionState">Sesión activa</span>
+          <details>
+            <summary>Eventos técnicos</summary>
+            <div id="techLog" class="tech-log"></div>
+          </details>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <div id="modalRoot" class="modal-root hidden"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

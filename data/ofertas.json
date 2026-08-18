@@ -1,0 +1,5 @@
+[
+  {"id": 1, "producto_id": 1, "nombre": "Notebook Lenovo IdeaPad Slim 3", "precio_normal": 549990, "precio_oferta": 499990, "descuento": "9%", "stock": 8, "imagen": "https://placehold.co/600x400?text=Lenovo+Oferta"},
+  {"id": 2, "producto_id": 2, "nombre": "Notebook ASUS Vivobook 15", "precio_normal": 629990, "precio_oferta": 579990, "descuento": "8%", "stock": 4, "imagen": "https://placehold.co/600x400?text=ASUS+Oferta"},
+  {"id": 3, "producto_id": 3, "nombre": "Monitor Samsung 24 pulgadas", "precio_normal": 119990, "precio_oferta": 99990, "descuento": "17%", "stock": 12, "imagen": "https://placehold.co/600x400?text=Samsung+Oferta"}
+]

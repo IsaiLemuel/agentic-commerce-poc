@@ -1,0 +1,7 @@
+[
+  {"id": 1, "nombre": "Notebook Lenovo IdeaPad Slim 3", "categoria": "notebook", "precio": 549990, "stock": 8, "descripcion": "Notebook equilibrado para estudio, oficina y uso diario.", "imagen": "https://placehold.co/600x400?text=Lenovo+IdeaPad"},
+  {"id": 2, "nombre": "Notebook ASUS Vivobook 15", "categoria": "notebook", "precio": 629990, "stock": 4, "descripcion": "Pantalla amplia de 15 pulgadas y buen rendimiento multitarea.", "imagen": "https://placehold.co/600x400?text=ASUS+Vivobook"},
+  {"id": 3, "nombre": "Monitor Samsung 24 pulgadas", "categoria": "monitor", "precio": 119990, "stock": 12, "descripcion": "Monitor Full HD para productividad y entretenimiento.", "imagen": "https://placehold.co/600x400?text=Samsung+24"},
+  {"id": 4, "nombre": "Mouse Logitech M650", "categoria": "mouse", "precio": 34990, "stock": 20, "descripcion": "Mouse inalámbrico silencioso y cómodo para uso prolongado.", "imagen": "https://placehold.co/600x400?text=Logitech+M650"},
+  {"id": 5, "nombre": "Teclado Logitech Pebble Keys 2", "categoria": "teclado", "precio": 44990, "stock": 15, "descripcion": "Teclado compacto Bluetooth para múltiples dispositivos.", "imagen": "https://placehold.co/600x400?text=Pebble+Keys+2"}
+]
